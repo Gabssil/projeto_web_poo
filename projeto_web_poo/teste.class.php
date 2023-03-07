@@ -7,27 +7,27 @@ class teste{
 
        public function __construct(){
            $pessoa = new pessoa();
-           //nome
+           //saida de dados nome
            $pessoa-> setNome($_POST['nome']. "<br>");
            echo $pessoa->getNome();
 
-           //endereço
+           //saida de dados endereço
            $pessoa-> setEndereco($_POST['endereco']. "<br>");
            echo $pessoa->getEndereco();
 
-           //bairro
+           //saida de dados bairro
            $pessoa-> setBairro($_POST['bairro']. "<br>");
            echo $pessoa->getBairro();
 
-           //cep
+           //saida de dados
            $pessoa-> setCep($_POST['cep']. "<br>" );
            echo $pessoa->getCep();
 
-           //cidade
+           //saida de dados
            $pessoa-> setCidade($_POST['cidade'] . "<br>");
            echo $pessoa->getCidade();
 
-           //estado
+           //saida de dados estado
            $pessoa-> setEstado($_POST['estado'] . "<br>");
            echo $pessoa->getEstado();
        }
